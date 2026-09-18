@@ -61,11 +61,11 @@ export default function CurvedGallery() {
       </div>
 
       {/* HEADING */}
-      <div className="relative z-30 pt-2 sm:pt-20 md:pt-10 text-center px-4">
-        <p className="mb-3 text-[10px] sm:text-xs font-semibold tracking-[0.35em] uppercase text-red-500/80">
+      <div className="relative z-30  sm:pt-20 md:pt-2 md:pb-14 text-center px-4">
+        <p className="text-[10px] sm:text-xs font-semibold tracking-[0.35em] uppercase text-red-500/80 leading-none">
           Behind The Lens
         </p>
-        <h2 className="font-montserrat text-2xl sm:text-3xl md:text-4xl font-extrabold uppercase tracking-[0.12em] sm:tracking-[0.18em] text-white drop-shadow-[0_2px_20px_rgba(0,0,0,0.6)]">
+        <h2 className="font-montserrat text-2xl sm:text-3xl md:text-4xl font-extrabold uppercase tracking-[0.12em] sm:tracking-[0.18em] text-white drop-shadow-[0_2px_20px_rgba(0,0,0,0.6)] leading-none">
           Every Angle A New Story
         </h2>
       </div>
@@ -120,16 +120,16 @@ export default function CurvedGallery() {
 
       {/* CAMERA PRODUCT VISUAL */}
       <div className="relative z-20 mt-2 flex flex-1 flex-col items-center justify-center sm:mt-4">
-        <div className="relative h-[190px] w-[260px] sm:h-[250px] sm:w-[350px] md:h-[300px] md:w-[420px]">
+        <div className="relative h-[190px] w-[260px] sm:h-[250px] sm:w-[350px] md:h-[300px] md:w-[420px] mb-2">
           <Image
-            src="/images/camera-rock-bg.jpg"
+            src="https://i.pinimg.com/1200x/91/2d/01/912d010222a929fe657d664f0742f5ce.jpg"
             alt="ARK Line Media camera on location"
             fill
             sizes="420px"
             className="object-cover object-center rounded-3xl [mask-image:radial-gradient(closest-side,black_65%,transparent_100%)]"
           />
         </div>
-        <div className="mt-3 h-px w-16 bg-gradient-to-r from-transparent via-red-600/60 to-transparent" />
+        <div className="mt-3 mb-8 h-px w-16 bg-gradient-to-r from-transparent via-red-600/60 to-transparent" />
         <p className="mt-2 text-[10px] tracking-[0.35em] uppercase text-white/50 sm:text-xs">
           Ark Line Media
         </p>

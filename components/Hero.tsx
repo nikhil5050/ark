@@ -47,14 +47,16 @@ export default function Hero() {
         ref={containerRef}
         className="sticky top-0 z-0 h-screen w-full overflow-hidden bg-[#0c0d0d] font-sans text-white select-none"
       >
-        {/* 1. BACKGROUND IMAGE & OVERLAYS */}
+        {/* 1. BACKGROUND VIDEO & OVERLAYS */}
         <div className="absolute inset-0 z-0">
-          <Image
-            src="/images/bgimg.png" // Place your second image here
-            alt="Mountain Landscape Background"
-            fill
-            priority
-            className="object-cover object-center opacity-70 brightness-90 contrast-110"
+          <video
+            className="h-full w-full object-cover object-center opacity-70 brightness-90 contrast-110"
+            src="/bg2.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="auto"
           />
           {/* Subtle dark gradient overlay to ensure UI elements are readable */}
           <div className="absolute inset-0 bg-gradient-to-t from-[#080808] via-transparent to-[#080808]/60" />

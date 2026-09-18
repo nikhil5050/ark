@@ -11,6 +11,7 @@ import CurvedGallery from "@/components/CurvedGallery";
 import BusinessOutcome from "@/components/BusinessOutcome";
 import Testimonials from "@/components/Testimonials";
 import CTA from "@/components/CTA";
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
       <BusinessOutcome />
       <Testimonials />
       <CTA />
+      <Contact />
       <Footer />
     </main>
   );

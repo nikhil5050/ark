@@ -42,3 +42,37 @@ img {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+@keyframes gradient-pan {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient-pan {
+  background-size: 250% 100%;
+  animation: gradient-pan 7s ease-in-out infinite;
+}
+
+@keyframes glow-pan {
+  0% {
+    background-position: 30% 50%;
+  }
+  50% {
+    background-position: 70% 50%;
+  }
+  100% {
+    background-position: 30% 50%;
+  }
+}
+
+.animate-glow-pan {
+  background-size: 160% 160%;
+  animation: glow-pan 6s ease-in-out infinite;
+}
